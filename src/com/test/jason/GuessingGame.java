@@ -1,7 +1,7 @@
 package com.test.jason;
 
 public class GuessingGame {
-	public static void main(String[] args) {		
+	public static void main(String[] args) {
 		if (args.length == 0 || args[0].equals("help")) {
 			System.out.println("程式用法 java GuessingGame [數字1-5]");
 		} else if (args[0].matches("[0-9]+")) {
